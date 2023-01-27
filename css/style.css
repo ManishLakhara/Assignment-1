@@ -8,7 +8,6 @@
 #mainimg{
     border: 20px solid #FFFFFF;
     border-radius: 50%;
-    max-width: max-content;
     width: 100%;
     margin: auto;
 }
@@ -55,4 +54,68 @@
 #register{
     text-decoration: none;
     color: #C8242F;
+}
+#searchicon{
+    height: 40px;
+    width: 40px;
+    margin-left: 50px;
+}
+#dheader{
+    height: 80px;
+}
+#ddropdown{
+    color: #000000;
+    background-color: white;
+    border:0px;
+}
+#dsearch{
+    border: 0px;
+}
+#dsecondcontainer{
+    height: 100%;
+    width: 100%;
+}
+#dlayer1, #dlayer2{
+    height: 100%;
+}
+#dselected{
+    letter-spacing: 0px;
+    color: #C8242F;
+    background-color: #FFF3F4;
+}
+#red{
+    background: #C8242F 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    border: none;
+    width: 18px;
+    height: 18px;
+    opacity: 1;
+}
+#green{
+    background: #A2B86C 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    border: none;
+    width: 18px;
+    height: 18px;
+    opacity: 1;
+}
+#orange{
+    background: #F16C20 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    border: none;
+    width: 18px;
+    height: 18px;
+    opacity: 1;
+}
+#yellow{
+    background: #EBC844 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    border: none;
+    width: 18px;
+    height: 18px;
+    opacity: 1;
+}
+#star, #add, #total, #dollar, #bag{
+    width: 33px;
+    height: 33px;
 }

@@ -1,0 +1,203 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+    <title>dashboard</title>
+</head>
+<body>
+    <nav>
+      <div class="container-fluid" id="dheader">
+        <div class="row">
+          <div class="col-lg-2 align-self-center">
+            <a href="#">
+              <img src="images/menu-bar.svg" alt="" class="m-1">
+              <img src="images/header-logo.svg " alt="" class="m-1">
+            </a>
+          </div>
+          <div class="col-lg-4 align-self-center">
+            <a href="#"><img src="images/search-icon.svg" height="16" width="16" alt="" class="m-1"></a>
+            <input type="text" name="search" id="dsearch" class="m-1" placeholder="Search">
+          </div>
+          <div class="col-lg-6 align-self-center">
+            <div class="row justify-content-end">
+              <div class="col-lg-1 align-self-center">
+                <img src="images/notification-icon.svg" alt="">
+              </div>
+              <div class="col-lg-1 align-self-center">
+                <img src="images/profile.png" alt="">
+              </div>
+              <div class="col-lg-2 btn-group align-self-center">
+                <button class="btn btn-secondary btn-sm dropdown-toggle" id="ddropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  John Doe
+                </button>
+                <div class="dropdown-menu">
+                  ...
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid" id="dsecondcontainer">
+      <div class="row">
+        <div class="col-lg-2 " id="dlayer1">
+          <!--This is layer1-->
+          <button type="button" class="btn  btn-lg" id="dselected">
+            <img src="images/dashboard-active.svg" height="16px" width="16px" alt="">
+            &nbsp;&nbsp;Dashboard</button>
+          <button type="button" class="btn  btn-lg">
+            <img src="images/graph-default.svg" height="16px" width="16px" alt="">
+            &nbsp;&nbsp;Analysis</button>
+          
+          <button type="button" class="btn  btn-lg">
+            <img src="images/inbox-default.svg" height="16px" width="16px" alt="">
+            &nbsp;&nbsp;Inbox</button>
+          
+          <button type="button" class="btn  btn-lg">
+            <img src="images/clock-default.svg"  height="16px" width="16px"  alt="">
+            &nbsp;&nbsp;History</button>
+          
+          <button type="button" class="btn  btn-lg">
+            <img src="images/user-default.svg" height="16px" width="16px" alt="">
+            &nbsp;&nbsp;Users</button>
+          
+          <button type="button" class="btn  btn-lg">
+            <img src="images/maintenance-default.svg" height="16px" width="16px"  alt="">
+            &nbsp;&nbsp;Maintenance</button>
+
+          <button type="button" class="btn  btn-lg">
+            <img src="images/setting-default.svg" height="16px" width="16px"  alt="">
+            &nbsp;&nbsp;Setting</button>
+  
+        </div>
+        <div class="col-lg-10 " id="dlayer2">
+          <!--This is layer2-->
+          <H1>Dashboard</H1>
+          <br>
+          <br>
+
+          <div class="row justify-content-evenly" id="property1">
+            <div class="col-md-2">
+              <div class="row">
+                <div class="col-sm-3">
+                  <img src="images/star.svg"  alt="" id="star">
+                </div>
+                <div class="col">
+                  <span>
+                    <h4>
+                      23,456
+                    </h4>
+                  </span>
+                  New Products
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="row">
+                <div class="col-sm-3">
+                  <img src="images/new-product.svg"  alt="" id="add">
+                </div>
+                <div class="col">
+                  <span>
+                    <h4>
+                      2345
+                    </h4>
+                  </span>
+                   
+                  Added Products
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="row">
+                <div class="col-sm-3">
+                  <img src="images/total-product.svg" alt="" id="total">
+                </div>
+                <div class="col">
+                  <span>
+                    <h4>
+                      32,456
+                    </h4>
+                  </span>
+                  Total Products  
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="row">
+                <div class="col-sm-3">
+                  <img src="images/dollar-filled.svg"  alt="" id="dollar">
+                </div>
+                <div class="col">
+                  <span>
+                    <h4>
+                      5678
+                    </h4>
+                  </span> 
+                  Today's Sale
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="row">
+                <div class="col-sm-3">
+                  <img src="images/money-bag.svg"  alt="" id="bag">
+                </div>
+                <div class="col">
+                  <span>
+                    <h4>
+                      33,5342 
+                    </h4>
+                  </span>
+                  Total Sale
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <br><br><br>
+          <div class="row">
+            <div class="col">
+              <h3>Sales</h3>
+              <img src="images/data-graph.png" alt="">
+            </div>
+            <div class="col">
+              <h3>Sales by country</h3>
+              <img src="images/pie-chart.svg" alt="">
+              <div class="row">
+                <div class="col">
+                  <button type="button" id="red"></button>
+                  <span class="p">United States of America</span>
+                </div>
+                <div class="col">
+                  <button type="button" id="green"></button>
+                  <span class="p">Canada</span> 
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <button type="button" id="orange"></button>
+                  <span class="p">Russia</span>
+                </div>
+                <div class="col">
+                  <button type="button" id="yellow"></button>
+                  <span class="p">India</span> 
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
