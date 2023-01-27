@@ -75,13 +75,18 @@
     height: 100%;
     width: 100%;
 }
-#dlayer1, #dlayer2{
+#dlayer1{
+    height: 100%;
+}
+#dlayer2{
+    background-color: #FAFAFA;
     height: 100%;
 }
 #dselected{
     letter-spacing: 0px;
     color: #C8242F;
     background-color: #FFF3F4;
+    max-width: 100%;
 }
 #red{
     background: #C8242F 0% 0% no-repeat padding-box;
@@ -118,4 +123,27 @@
 #star, #add, #total, #dollar, #bag{
     width: 33px;
     height: 33px;
+}
+#viewall{
+    text-decoration: none !important;
+    font: normal normal normal 12px/16px Roboto;
+    color: #C8242F;
+}
+#paid1, #paid2, #paid3, #paid4, #paid5, #paid6{
+    color: #3CDD5F;
+    background-color: #EBFFEF;
+    font: normal normal normal 15px/20px Roboto;
+    border: none;
+}
+#failed1, #failed2{
+    color: #FF4545;
+    background-color: #FFF5F5;
+    font: normal normal normal 15px/20px Roboto;
+    border: none;
+}
+#pending{
+    color: #BABABA;
+    background-color: #F8F8F8;
+    font: normal normal normal 15px/20px Roboto;
+    border: none;
 }
