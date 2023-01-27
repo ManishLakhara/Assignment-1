@@ -1,0 +1,59 @@
+#mypage{
+    background-color: #fafafa;
+}
+#rowid{
+    height: 100%;
+    width: 100%;
+    
+}
+#mainimg{
+    border: 20px solid #FFFFFF;
+    border-radius: 50%;
+    max-width: max-content;
+    width: 100%;
+    margin: auto;
+}
+#mainp{
+    text-align: left;
+    text-align: left;
+    font: normal normal 300 40px/47px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+}
+#mainspan{
+    color: #C8242F;
+}
+#maintask{
+    font: normal normal normal 25px/33px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+}
+#username-text{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+}
+#inputPassword5, #inputUsername{
+    width: 50%;
+}
+#login{
+    background: #C8242F 0% 0% no-repeat padding-box;
+    font: normal normal medium 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    border-radius: 23px;
+    width: 138px;
+}
+#forgot{
+    text-decoration: none;
+    color: #ADADAD;
+}
+#info{
+    text-align: left;
+    font: normal normal normal 15px/20px Roboto;
+    color: #ADADAD;
+}
+#register{
+    text-decoration: none;
+    color: #C8242F;
+}
