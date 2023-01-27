@@ -1,0 +1,227 @@
+<html5 lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/custom.js"></script>
+        <title>Analysis</title>
+    </head>
+    <body>
+        <nav>
+          <div class="container-fluid" id="dheader">
+            <div class="row">
+              <div class="col-lg-2 align-self-center">
+                <a href="#">
+                  <img src="images/menu-bar.svg" alt="" class="m-1">
+                  <img src="images/header-logo.svg " alt="" class="m-1">
+                </a>
+              </div>
+              <div class="col-lg-4 align-self-center">
+                <a href="#"><img src="images/search-icon.svg" height="16" width="16" alt="" class="m-1"></a>
+                <input type="text" name="search" id="dsearch" class="m-1" placeholder="Search">
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="row justify-content-end">
+                  <div class="col-lg-1 align-self-center">
+                    <img src="images/notification-icon.svg" alt="">
+                  </div>
+                  <div class="col-lg-1 align-self-center">
+                    <img src="images/profile.png" alt="">
+                  </div>
+                  <div class="col-lg-2 btn-group align-self-center">
+                    <button class="btn btn-secondary btn-sm dropdown-toggle" id="ddropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      John Doe
+                    </button>
+                    <div class="dropdown-menu">
+                      ...
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="container-fluid" id="dsecondcontainer">
+          <div class="row">
+            <div class="col-lg-2 " id="dlayer1">
+              <!--This is layer1-->
+              <button type="button" class="btn  btn-lg">
+                <img src="images/dashboard-active.svg" height="16px" width="16px" alt="">
+                &nbsp;&nbsp;Dashboard</button>
+              <button type="button" class="btn  btn-lg" id="dselected">
+                <img src="images/graph-active.svg" height="16px" width="16px" alt="">
+                &nbsp;&nbsp;Analysis</button>
+              
+              <button type="button" class="btn  btn-lg">
+                <img src="images/inbox-default.svg" height="16px" width="16px" alt="">
+                &nbsp;&nbsp;Inbox</button>
+              
+              <button type="button" class="btn  btn-lg">
+                <img src="images/clock-default.svg"  height="16px" width="16px"  alt="">
+                &nbsp;&nbsp;History</button>
+              
+              <button type="button" class="btn  btn-lg">
+                <img src="images/user-default.svg" height="16px" width="16px" alt="">
+                &nbsp;&nbsp;Users</button>
+              
+              <button type="button" class="btn  btn-lg">
+                <img src="images/maintenance-default.svg" height="16px" width="16px"  alt="">
+                &nbsp;&nbsp;Maintenance</button>
+    
+              <button type="button" class="btn  btn-lg">
+                <img src="images/setting-default.svg" height="16px" width="16px"  alt="">
+                &nbsp;&nbsp;Setting</button>
+      
+            </div>
+            <div class="col-lg-10 " id="dlayer2">
+              <!--This is layer2-->
+              <H1>Analysis</H1>
+              <br><br>
+              <div class="container" id="acontainer">
+                <div class="row">
+                    <div class="col">
+                        <h3>One Column</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input class="form-control form-control-lg" type="text" placeholder="Name"> 
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <select class="form-control form-control-lg">
+                            <option>Dropdown</option>
+                            <option>Dropdown</option>
+                            <option>Dropdown</option>
+                          </select>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <textarea class="form-control form-control-lg" aria-label="With textarea" placeholder="Multiple line"></textarea>
+                    </div>
+                </div>
+                <br><br>
+                <h3>Two Column</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <input class="form-control form-control-lg" type="text" placeholder="Name">
+                    </div>
+                    <div class="col-md-6">
+                        <input class="form-control form-control-lg" type="text" placeholder="Username">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6"> 
+                        <input type="password" class="form-control form-control-lg" placeholder="Password">
+                    </div>        
+                    <div class="col-md-6"> 
+                        <select class="form-control form-control-lg">
+                            <option>Dropdown</option>
+                            <option>Dropdown</option>
+                            <option>Dropdown</option>
+                          </select>
+                    </div> 
+                </div>
+                <br><br>
+                <h3>Three Column</h3>
+            
+                <div class="row">
+                    <div class="col-md-4">
+                        <input class="form-control form-control-lg" type="text" placeholder="Name">
+                    </div>
+                    <div class="col-md-4">
+                        <input class="form-control form-control-lg" type="text" placeholder="Password">
+                    </div> 
+                    <div class="col-md-4">
+                        <input class="form-control form-control-lg" id="adisabled" type="text" placeholder="Disabled">
+                    </div>
+                </div>
+                <br><br>
+                <h3>Four Column</h3>
+                <div class="row">
+                    <div class="col-md-3">
+                        <input class="form-control form-control-lg" type="text" placeholder="Designation">
+                    </div>
+                    <div class="col-md-3">
+                        <input class="form-control form-control-lg" type="text" placeholder="Name">
+                    </div>
+                    <div class="col-md-3">
+                        <input class="form-control form-control-lg" type="text" placeholder="Username">
+                    </div>
+                    <div class="col-md-3">
+                        <select class="form-control form-control-lg">
+                            <option>Select</option>
+                            <option>Dropdown</option>
+                            <option>Dropdown</option>
+                          </select>
+                    </div>
+                </div>
+                <br><br>
+                <h3>Other Design Elements</h3>
+                <br>
+                <h4>File Upload</h4>
+                <div class="row justify-content-start">
+                    <div class="col-md-2">
+                        <button type="button" class="btn btn-outline-danger">
+                            <img src="images/upload.png" width="15px" height="15px" alt="">
+                            Upload</button>
+                    </div>
+                    <div class="col-md-2 align-self-end">
+                        <span>No Items selected</span>
+                    </div>
+                </div>
+                <br>
+                <h4>Radio Button</h4>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Option-1</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Option-2</label>
+                </div>
+                <br><br>
+                <h4>Checkbox</h4>
+                <div class="row">
+                    <div class="col-md-2 form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Option-1
+                        </label>
+                      </div>
+                      <div class="col-md-2 form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Option-2
+                        </label>
+                    </div>   
+                </div>
+                <br>
+                <h4>Snackbar</h4>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        
+                    </div>
+                    <div class="col-md-6">
+                        
+                    </div>
+                </div>
+
+                  
+              <!---->
+            </div>
+          </div>
+        </div>
+    
+    </body>
+    </html>

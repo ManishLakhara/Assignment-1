@@ -147,3 +147,10 @@
     font: normal normal normal 15px/20px Roboto;
     border: none;
 }
+#acontainer{
+    background-color: #FFFFFF;
+}
+#adisabled{
+    border: dashed;
+    border-color: #ADADAD;
+}
