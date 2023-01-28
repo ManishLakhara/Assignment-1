@@ -154,3 +154,27 @@
     border: dashed;
     border-color: #ADADAD;
 }
+#alert1{
+    border: 1px solid #FF3535;
+    border-radius: 5px;
+    opacity: 1;
+    color: #FF3535;
+}
+#alert2{
+    border: 1px solid #00B9E1;
+    border-radius: 5px;
+    opacity: 1;
+    color: #00B9E1;
+}
+#alert3{
+    border: 1px solid #FFA800;
+    border-radius: 5px;
+    opacity: 1;
+    color: #FFA800;
+}
+#alert4{
+    border: 1px solid #00AF27;
+    border-radius: 5px;
+    opacity: 1;
+    color: #00AF27;
+}
