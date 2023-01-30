@@ -17,10 +17,10 @@
               <div class="col-lg-2 align-self-center">
                 <a href="login.html">
                   <div class="row justify-content-evenly">
-                    <div class="col">
+                    <div class="col-sm-3">
                       <img src="images/menu-bar.svg" alt="" >
                     </div>
-                    <div class="col">
+                    <div class="col-sm-9">
                       <img src="images/header-logo.svg " alt="" >
                     </div>
                   </div>
@@ -91,7 +91,7 @@
               <!--This is layer2-->
               <H1>Analysis</H1>
               <br><br>
-              <div class="container" id="acontainer">
+              <div class="container m-1" id="acontainer">
                 <div class="row">
                     <div class="col">
                         <h3>One Column</h3>
@@ -192,16 +192,16 @@
                 <div class="row justify-content-start">
                     <div class="col-md-2">
                         <button type="button" class="btn btn-outline" id="upload">
-                            <img src="images/upload.png" id="uploadicon" style="color:red" width="15px" height="15px" alt="">
+                            <img src="images/cloud-upload-icon.svg" id="uploadicon" style="color:red" class="iconsize" alt="">
                             Upload</button>
-                    </div>
+                    </div>        
                     <div class="col-md-2 align-self-end">
                         <span id="uploaditems">No Items selected</span>
                     </div>
                 </div>
                 <br>
                 <h4>Radio Button</h4>
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline red-color">
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                     <label class="form-check-label" for="inlineRadio1">Option-1</label>
                   </div>
@@ -210,46 +210,54 @@
                     <label class="form-check-label" for="inlineRadio2">Option-2</label>
                 </div>
                 <br><br>
+
+
                 <h4>Checkbox</h4>
+
                 <div class="row">
-                    <div class="col-md-2 form-check">
+                    <div class="col-md-2 m-2 form-check">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                           Option-1
                         </label>
                       </div>
-                      <div class="col-md-2 form-check">
+                      <div class="col-md-2 m-2 form-check">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
                         <label class="form-check-label" for="flexCheckChecked">
                           Option-2
                         </label>
-                    </div>   
+                    </div>  
                 </div>
+
+
                 <br>
                 <h4>Snackbar</h4>
-                 <div class="row">
-                  <div class="col-md-6">
-                    <div class="alert" id="alert1">
-                     This is an Error Message
-                    </div>
-                    <div class="alert" id="alert2">
-                      This is an Information Message
-                     </div>
-                  </div>
-                 </div> 
-                 <div class="row">
-                  <div class="col-md-6">
-                    <div class="alert" id="alert3">
-                     This is an Warning Message
-                    </div>
-                    <div class="alert" id="alert4">
-                      This is an Success Message
-                     </div>
-                  </div>
-                 </div> 
-                 <br><br>
-                 <h4>Call to Action</h4>
-                 <br>
+
+                
+
+
+                <div class="row justify-content-around">        
+                      <div class="col-6 alert rounded" style=" width: 47%;" id="alert1">
+                        <img src="images/error-icon.svg" height="25px" width="25px" alt=""> This is an Error Message
+                      </div>
+                      <div class="col-6 alert rounded" style=" width: 47%; " id="alert2">
+                        <img src="images/info-icon.svg" height="25px" width="25px" alt=""> This is an Information Message
+                      </div>                    
+                </div> 
+  
+                <div class="row justify-content-around">
+                        <div class="col-6 alert rounded" style=" width: 47%; "id="alert3">
+                          <img src="images/warning-icon.svg " height="25px" width="25px" alt=""> This is an Warning Message
+                        </div>
+                        <div class="col-6 alert rounded" style=" width: 47%; "id="alert4">
+                          <img src="images/success-icon.svg" height="25px" width="25px" alt=""> This is an Success Message
+                        </div>
+                </div>
+                <br><br>
+                 
+                <h4>Call to Action</h4>
+                 
+                <br>
                  <div class="row">
                   <div class="col-md-6">
                     <div class="row">
@@ -268,6 +276,7 @@
                   Tabs
                  </h4>
                  <br>
+                 <!--
                  <div class="row">
                   <div class="col-mg-3">
                     <table class="table">
@@ -286,14 +295,103 @@
                       </thead>
                       </table>
                   </div>
-                 </div>
+                 -->
+
+                 <!-- <ul class="nav nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active" rel="tab-1" aria-current="page" href="#" onclick="javascript:ShowMyDiv(this);" >Tab 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" rel="tab-2" href="#" onclick="javascript:ShowMyDiv(this);" >Tab 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" rel="tab-3" href="#" onclick="javascript:ShowMyDiv(this);" >Tab 3</a>
+                  </li>
+                </ul>
                 <div class="row">
                   <div class="col">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, optio! Repellat maxime recusandae nam aliquid eum delectus consectetur praesentium commodi. Dolorum nesciunt cupiditate consequatur. Possimus ipsum similique sit expedita cupiditate.
-                    Facere, unde sed necessitatibus quos quibusdam nulla ratione doloremque vel doloribus officia aut earum ea, ex consequatur fuga sapiente fugit qui amet quae! Architecto consectetur quisquam odit, tempore molestiae eos.
+                    <div class="tabcontents">
+                      <div class="tabcontent" id="tab-1">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, fugit placeat commodi libero harum aliquid quo provident qui aut consequuntur cumque voluptas dolore deserunt fuga eos. Reprehenderit nisi ea dolores!
+                          Doloribus sapiente culpa expedita voluptas aliquam deleniti illo inventore dolor impedit velit, consequuntur nam reiciendis fugit porro ipsam dolore. A ipsa eaque provident vero autem saepe minima magni earum. Adipisci.
+                        </p>
+                      </div>
+                      <div class="tabcontent" id="tab-2">
+                        <p>
+                        Et voluptatem vero, tempora harum modi eveniet consectetur distinctio, possimus ratione perferendis illo reiciendis quo neque corporis mollitia eligendi eaque repudiandae error. Sint in, rerum architecto adipisci quibusdam enim itaque?
+                        Natus delectus nesciunt maiores, placeat voluptatem animi harum quaerat dicta ut soluta fugiat iusto nobis error consequuntur dolorum tempore magni, ratione at? Aperiam quos, cumque odio iusto fugiat aut excepturi.  
+                        </p>
+                      </div>
+                      <div class="tabcontent" id="tab-3">
+                        <p>
+                        Aliquid praesentium, explicabo amet facilis eum molestiae id quae maxime accusantium tempora dicta eius temporibus incidunt asperiores. Officiis sint distinctio libero saepe mollitia quo, sit nam, reiciendis alias eos facilis.
+                        Quidem nemo odio earum eius, dolore sit ducimus beatae illum distinctio, debitis doloremque. Necessitatibus veritatis sed, laudantium quisquam laboriosam sunt maiores. Cumque mollitia error atque dolores unde inventore ipsum commodi.  
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                </div> 
+                </div>
+                <script>
+                    function ShowMyDiv(Obj){
+                      var elements = document.getElementsByTagName('div');
+                    for (var i = 0; i < elements.length; i++) 
+                      if(elements[i].className=='tabcontent')
+                      elements[i].style.display= 'none';
+
+                    document.getElementById(Obj.rel).style.display= 'block';
+                    //------------------------------------
+
+                      var ul_el = document.getElementById('tab_ul');
+                      var li_el = ul_el.getElementsByTagName('li');
+                    for (var i = 0; i < li_el.length; i++) 
+                      li_el[i].className="";
+
+                    Obj.parentNode.className="selected";
+                    }
+                </script> -->
             <!---->
+            <div class="tab">
+              <button class="tablinks" onclick="openCity(event, 'tab-1')">Tab 1</button>
+              <button class="tablinks" onclick="openCity(event, 'tab-2')">Tab 2</button>
+              <button class="tablinks" onclick="openCity(event, 'tab-3')">Tab 3</button>
+            </div>
+            
+            <!-- Tab content -->
+            <div id="tab-1" class="tabcontent">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.</p>
+            </div>
+            
+            <div id="tab-2" class="tabcontent">
+              <p>Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.</p>
+            </div>
+            
+            <div id="tab-3" class="tabcontent">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.</p>
+            </div>
+            <!--Adding JS -->
+            <script>
+              function openCity(evt, cityName) {
+                // Declare all variables
+                var i, tabcontent, tablinks;
+              
+                // Get all elements with class="tabcontent" and hide them
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                  tabcontent[i].style.display = "none";
+                }
+              
+                // Get all elements with class="tablinks" and remove the class "active"
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                  tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+              
+                // Show the current tab, and add an "active" class to the button that opened the tab
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+              }
+          </script>
             </div>
           </div>
         </div>
