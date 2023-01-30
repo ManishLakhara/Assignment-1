@@ -47,9 +47,9 @@
         </nav>
         <div class="container-fluid" id="dsecondcontainer">
           <div class="row">
-            <div class="col-lg-2 " id="dlayer1">
+            <div class="col-lg-2" id="dlayer1">
               <!--This is layer1-->
-              <button type="button" class="btn  btn-lg">
+              <button type="button" class="btn  btn-lg width-max">
                 <img src="images/dashboard-active.svg" height="16px" width="16px" alt="">
                 &nbsp;&nbsp;Dashboard</buttonx>
               <button type="button" class="btn  btn-lg" id="dselected">
@@ -88,8 +88,9 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
-                        <input class="form-control form-control-lg" type="text" placeholder="Name"> 
+                    <div class="form-floating col">
+                        <input class="form-control form-control-lg" id="floatingtextarea" type="text" placeholder="Name">
+                        <label class="height" for="floatingtextarea">&nbsp;&nbsp;Name</label> 
                     </div>
                 </div>
                 <br>
@@ -97,8 +98,8 @@
                     <div class="col">
                         <select class="form-control form-control-lg">
                             <option>Dropdown</option>
-                            <option>Dropdown</option>
-                            <option>Dropdown</option>
+                            <option>Option-1</option>
+                            <option>Option-2</option>
                           </select>
                     </div>
                 </div>
@@ -111,17 +112,20 @@
                 <br><br>
                 <h3>Two Column</h3>
                 <div class="row">
-                    <div class="col-md-6">
-                        <input class="form-control form-control-lg" type="text" placeholder="Name">
+                    <div class="form-floating col-md-6">
+                        <input class="form-control form-control-lg" id="floatingtextarea2" type="text" placeholder="Name">
+                        <label for="floatingtextarea2">&nbsp;&nbsp;Name</label>
                     </div>
-                    <div class="col-md-6">
-                        <input class="form-control form-control-lg" type="text" placeholder="Username">
+                    <div class="form-floating col-md-6">
+                        <input class="form-control form-control-lg" id="flaotingtextarea3" type="text" placeholder="Username">
+                        <label for="floatingtextarea3">&nbsp;&nbsp;Username</label>
                     </div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-md-6"> 
-                        <input type="password" class="form-control form-control-lg" placeholder="Password">
+                    <div class="form-floating col-md-6"> 
+                        <input type="password" class="form-control form-control-lg" id="floatingtextarea4" placeholder="Password">
+                        <label for="floatingtextarea4">&nbsp;&nbsp;Password</label>
                     </div>        
                     <div class="col-md-6"> 
                         <select class="form-control form-control-lg">
@@ -135,27 +139,33 @@
                 <h3>Three Column</h3>
             
                 <div class="row">
-                    <div class="col-md-4">
-                        <input class="form-control form-control-lg" type="text" placeholder="Name">
+                    <div class="form-floating col-md-4">
+                        <input class="form-control form-control-lg" id="floatingtextarea5" type="text" placeholder="Name">
+                        <label for="floatingtextarea5">&nbsp;&nbsp;Name</label>
                     </div>
-                    <div class="col-md-4">
-                        <input class="form-control form-control-lg" type="text" placeholder="Password">
+                    <div class="form-floating col-md-4">
+                        <input class="form-control form-control-lg" id="floatingtextarea6" type="text" placeholder="Password">
+                        <label for="floatingtextarea6">&nbsp;&nbsp;Password</label>
                     </div> 
-                    <div class="col-md-4">
+                    <div class="form-floating col-md-4">
                         <input class="form-control form-control-lg" id="adisabled" type="text" placeholder="Disabled">
+                        <label for="adisabled">&nbsp;&nbsp;Disabled</label>
                     </div>
                 </div>
                 <br><br>
                 <h3>Four Column</h3>
                 <div class="row">
-                    <div class="col-md-3">
-                        <input class="form-control form-control-lg" type="text" placeholder="Designation">
+                    <div class="form-floating col-md-3">
+                        <input class="form-control form-control-lg" id="floatingtextarea7" type="text" placeholder="Designation">
+                        <label for="floatingtextarea7">&nbsp;&nbsp;Password</label>
                     </div>
-                    <div class="col-md-3">
-                        <input class="form-control form-control-lg" type="text" placeholder="Name">
+                    <div class="form-floating col-md-3">
+                        <input class="form-control form-control-lg" id="floatingtextarea8" type="text" placeholder="Name">
+                        <label for="floatingtextarea8">&nbsp;&nbsp;Name</label>
                     </div>
-                    <div class="col-md-3">
-                        <input class="form-control form-control-lg" type="text" placeholder="Username">
+                    <div class="form-floating col-md-3">
+                        <input class="form-control form-control-lg" id="floatingtextarea9" type="text" placeholder="Username">
+                        <label for="floatingtextarea9">&nbsp;&nbsp;Username</label>
                     </div>
                     <div class="col-md-3">
                         <select class="form-control form-control-lg">
@@ -171,12 +181,12 @@
                 <h4>File Upload</h4>
                 <div class="row justify-content-start">
                     <div class="col-md-2">
-                        <button type="button" class="btn btn-outline-danger">
-                            <img src="images/upload.png" width="15px" height="15px" alt="">
+                        <button type="button" class="btn btn-outline" id="upload">
+                            <img src="images/upload.png" id="uploadicon" style="color:red" width="15px" height="15px" alt="">
                             Upload</button>
                     </div>
                     <div class="col-md-2 align-self-end">
-                        <span>No Items selected</span>
+                        <span id="uploaditems">No Items selected</span>
                     </div>
                 </div>
                 <br>
@@ -207,16 +217,6 @@
                 </div>
                 <br>
                 <h4>Snackbar</h4>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        
-                    </div>
-                    <div class="col-md-6">
-                        
-                    </div>
-                </div>
-
                  <div class="row">
                   <div class="col-md-6">
                     <div class="alert" id="alert1">
@@ -239,8 +239,51 @@
                  </div> 
                  <br><br>
                  <h4>Call to Action</h4>
+                 <br>
+                 <div class="row">
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <button type="button" class="btn btn-primary">Primary</button>
+                      </div>
+                      <div class="col-md-3">
+                        <button type="button" class="btn btn-secondary">Secondary</button>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
 
-              <!---->
+                 <br>
+                 <h4>
+                  Tabs
+                 </h4>
+                 <br>
+                 <div class="row">
+                  <div class="col-mg-3">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">
+                            <button type="button" class="selected-tab">tab-1</button>
+                            </th>
+                          <th scope="col">
+                            <button type="button" class="unselected-tab">tab-2</button>
+                          </th>
+                          <th scope="col">
+                            <button type="button" class="unselected-tab">tab-3</button>
+                          </th>
+                        </tr>
+                      </thead>
+                      </table>
+                  </div>
+                 </div>
+                <div class="row">
+                  <div class="col">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, optio! Repellat maxime recusandae nam aliquid eum delectus consectetur praesentium commodi. Dolorum nesciunt cupiditate consequatur. Possimus ipsum similique sit expedita cupiditate.
+                    Facere, unde sed necessitatibus quos quibusdam nulla ratione doloremque vel doloribus officia aut earum ea, ex consequatur fuga sapiente fugit qui amet quae! Architecto consectetur quisquam odit, tempore molestiae eos.
+                  </div>
+                </div> 
+            <!---->
             </div>
           </div>
         </div>
