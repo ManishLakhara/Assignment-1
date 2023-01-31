@@ -275,3 +275,7 @@ input[type="checkbox"]:checked{
     padding: 6px 12px;
     border-top: 1px;
   }
+  #viewall{
+    color:#C8242F;
+    text-decoration: none;
+  }
